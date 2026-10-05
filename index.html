@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Country Capital</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🌍 Country Capital</h1>
+
+        <p>Select a country to display its capital</p>
+
+        <div class="country-box">
+
+            <label for="country">
+                Select Country:
+            </label>
+
+            <select id="country"
+                    onchange="showCapital()">
+
+                <option value="">
+                    -- Select Country --
+                </option>
+
+                <option value="India">
+                    India
+                </option>
+
+                <option value="USA">
+                    United States
+                </option>
+
+                <option value="Japan">
+                    Japan
+                </option>
+
+                <option value="France">
+                    France
+                </option>
+
+                <option value="Australia">
+                    Australia
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div class="capital-box">
+
+            <span>
+                Capital:
+            </span>
+
+            <span id="capital">
+                Select a country
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
